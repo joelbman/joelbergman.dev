@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { LinkedinIcon, MailIcon } from './icons';
+import { LinkedinIcon } from './icons';
 import Link from 'next/link';
 import { useEffect } from 'react';
 
