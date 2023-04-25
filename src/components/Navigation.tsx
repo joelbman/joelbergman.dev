@@ -7,21 +7,19 @@ interface NavItemProps extends React.PropsWithChildren {
   active?: boolean;
 }
 
-const NavItem = ({ url, children, icon }: NavItemProps) => {
-  return (
-    <Link
-      href={url}
-      className="flex items-center justify-center text-center font-robotomono rounded-xl p-2 px-4 bg-sky-800 mr-2 hover:bg-sky-700 hover:underline"
-    >
-      <figure className="mr-2">{icon}</figure>
-      {children}
-    </Link>
-  );
-};
+const NavItem = ({ url, children, icon }: NavItemProps) => (
+  <Link
+    href={url}
+    className="flex items-center justify-center text-center font-robotomono rounded-xl p-2 px-4 bg-sky-900 mr-2 hover:bg-sky-700 hover:underline"
+  >
+    <figure className="mr-2">{icon}</figure>
+    {children}
+  </Link>
+);
 
 const Navigation = () => {
   return (
-    <nav className="flex my-4">
+    <nav className="flex my-10">
       <NavItem url="/" icon={<HomeIcon />}>
         Home
       </NavItem>

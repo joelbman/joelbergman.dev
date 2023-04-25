@@ -7,7 +7,7 @@ const Layout = ({ children }: React.PropsWithChildren) => {
     <div className="flex flex-col flex-1 items-center h-full w-3/4">
       <Header />
       <Navigation />
-      <main className="flex-1">{children}</main>
+      <main className="flex-1 max-w-[48rem] text-center">{children}</main>
       <Footer />
     </div>
   );

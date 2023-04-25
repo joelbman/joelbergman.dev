@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 #__next {
-  @apply bg-sky-950 text-sky-100 flex flex-col w-full items-center min-h-screen p-8 overflow-x-hidden;
+  @apply bg-sky-950 text-sky-100 font-barlow flex flex-col w-full items-center min-h-screen p-8 overflow-x-hidden;
+}
+
+h2 {
+  @apply font-bold font-robotomono text-3xl text-center mb-4;
 }
 
 .typewriter {

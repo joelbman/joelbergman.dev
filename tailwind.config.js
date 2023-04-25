@@ -8,11 +8,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        blue: {
+          950: '#041959',
+        },
         sky: {
-          950: '#012a56',
+          950: '#000821',
         },
       },
       fontFamily: {
+        barlow: ['"Barlow"', 'sans-serif'],
         robotomono: ['"Roboto Mono"', 'sans-serif'],
       },
     },

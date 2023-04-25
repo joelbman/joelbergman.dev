@@ -20,7 +20,14 @@ const Footer = () => {
 
   return (
     <footer className="flex text-center text-sm items-center">
-      <Link className="mr-2" href="" data-add="joel.h.bergman" data-domain="gmail" data-end="com" />
+      <Link
+        id="mail"
+        className="mr-2"
+        href=""
+        data-add="joel.h.bergman"
+        data-domain="gmail"
+        data-end="com"
+      />
       -
       <Link href="https://github.com/joelbman/">
         <Image
