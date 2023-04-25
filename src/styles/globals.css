@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+#__next {
+  @apply bg-sky-950 text-sky-100 flex flex-col w-full items-center min-h-screen p-8 overflow-x-hidden;
+}
+
 .typewriter {
   border-right: 2px solid rgba(17, 17, 17, 0.9);
   height: 4.5rem;

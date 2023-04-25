@@ -1,3 +1,5 @@
-export default function Home() {
-  return <div />;
-}
+const Home = () => {
+  return <div>test</div>;
+};
+
+export default Home;
