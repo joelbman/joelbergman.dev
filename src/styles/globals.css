@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.typewriter {
+  border-right: 2px solid rgba(17, 17, 17, 0.9);
+  height: 4.5rem;
+  animation: typewriter 1.5s steps(16) 0.5s 1 normal both, borderBlink 900ms steps(12) infinite;
+  @apply font-robotomono font-bold whitespace-nowrap overflow-hidden text-6xl;
+}
+
+@keyframes typewriter {
+  from {
+    @apply w-0;
+  }
+  to {
+    width: 28rem;
+  }
+}
+
+@keyframes borderBlink {
+  from {
+    border-right-color: rgba(17, 17, 17, 0.9);
+  }
+  to {
+    border-right-color: rgba(245, 245, 245, 0.8);
+  }
+}
