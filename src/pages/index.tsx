@@ -45,27 +45,41 @@ const Home = () => (
 
       <section className="flex flex-col mt-6 max-w-[48rem]">
         <TagList>
-          <Tag>HTML</Tag> <Tag>CSS</Tag> <Tag>TypeScript</Tag> <Tag>React</Tag> <Tag>NextJS</Tag>{' '}
-          <Tag>NodeJS</Tag> <Tag>Express</Tag> <Tag>Vue</Tag> <Tag>Tailwind</Tag> <Tag>Shopify</Tag>{' '}
-          <Tag>Contentful</Tag> <Tag>Git</Tag> <Tag>PHP</Tag>
+          <Tag>HTML</Tag>
+          <Tag>CSS</Tag>
+          <Tag>TypeScript</Tag>
+          <Tag>React</Tag>
+          <Tag>NextJS</Tag>
+          <Tag>NodeJS</Tag>
+          <Tag>Express</Tag>
+          <Tag>Vue</Tag>
+          <Tag>Tailwind</Tag>
+          <Tag>Shopify</Tag>
+          <Tag>Contentful</Tag>
+          <Tag>Git</Tag>
+          <Tag>PHP</Tag>
         </TagList>
 
         <TagList>
-          <Tag bg="medium">Python</Tag> <Tag bg="medium">Django</Tag> <Tag bg="medium">Laravel</Tag>{' '}
+          <Tag bg="medium">Python</Tag>
+          <Tag bg="medium">Django</Tag> <Tag bg="medium">Laravel</Tag>
           <Tag bg="medium">AngularJS</Tag>
         </TagList>
 
         <TagList>
-          <Tag bg="dark">Docker</Tag> <Tag bg="dark">Linux</Tag> <Tag bg="dark">C#</Tag>{' '}
+          <Tag bg="dark">Docker</Tag>
+          <Tag bg="dark">Linux</Tag> <Tag bg="dark">C#</Tag>
           <Tag bg="dark">Java</Tag>
         </TagList>
       </section>
     </PageSection>
 
     <PageSection>
-      <h2>Contact</h2>I am currently available for both remote positions and freelance projects. The
-      fastest and most reliable way to reach me is via email, you can find the address below in the
-      footer.
+      <h2>Contact</h2>
+      <p>
+        I am currently available for both remote positions and freelance projects. The fastest and
+        most reliable way to reach me is via email, you can find the address below in the footer.
+      </p>
     </PageSection>
   </div>
 );
