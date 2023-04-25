@@ -13,7 +13,7 @@ h2 {
 }
 
 .typewriter {
-  border-right: 2px solid rgba(17, 17, 17, 0.9);
+  border-right: 4px solid rgba(17, 17, 17, 0.9);
   height: 4.5rem;
   animation: typewriter 1.5s steps(16) 0.5s 1 normal both, borderBlink 900ms steps(12) infinite;
   @apply font-robotomono font-bold whitespace-nowrap overflow-hidden text-6xl;

@@ -6,7 +6,7 @@ interface TagProps extends React.PropsWithChildren {
 
 const Tag = ({ children, bg }: TagProps) => (
   <div
-    className={cn('rounded-xl px-4 py-2 mr-2 mb-4 font-robotomono', {
+    className={cn('rounded-xl px-4 py-2 mr-2 mb-4 font-robotomono hover:animate-bounce', {
       'bg-blue-950': bg === 'dark',
       'bg-blue-800': bg === 'medium',
       'bg-blue-600': bg === 'light' || !bg,

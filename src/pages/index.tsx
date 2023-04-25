@@ -29,7 +29,7 @@ const Home = () => (
 
           <p className="mt-4">
             Other than programming, I mostly spend my time either playing computer games, playing
-            the guitar, singing, reading, walking or lifting weights.
+            the guitar, singing, reading, taking walks or weightlifting.
           </p>
         </div>
       </div>
@@ -38,7 +38,7 @@ const Home = () => (
     <PageSection>
       <h2>Skillset</h2>
       <p>
-        Here&apos;s a miscellaneous list of technologies I have experience with. <br />
+        Here&apos;s a quick list of technologies I have experience working with. <br />
         Lighter background represents more proficiency. For more information, check out my{' '}
         <TextLink href="/cv">CV</TextLink>!
       </p>
@@ -49,8 +49,8 @@ const Home = () => (
           <Tag>CSS</Tag>
           <Tag>TypeScript</Tag>
           <Tag>React</Tag>
-          <Tag>NextJS</Tag>
-          <Tag>NodeJS</Tag>
+          <Tag>Next.js</Tag>
+          <Tag>Node.js</Tag>
           <Tag>Express</Tag>
           <Tag>Vue</Tag>
           <Tag>Tailwind</Tag>
@@ -62,13 +62,15 @@ const Home = () => (
 
         <TagList>
           <Tag bg="medium">Python</Tag>
-          <Tag bg="medium">Django</Tag> <Tag bg="medium">Laravel</Tag>
+          <Tag bg="medium">Django</Tag>
+          <Tag bg="medium">Laravel</Tag>
           <Tag bg="medium">AngularJS</Tag>
         </TagList>
 
         <TagList>
           <Tag bg="dark">Docker</Tag>
-          <Tag bg="dark">Linux</Tag> <Tag bg="dark">C#</Tag>
+          <Tag bg="dark">Linux</Tag>
+          <Tag bg="dark">C#</Tag>
           <Tag bg="dark">Java</Tag>
         </TagList>
       </section>
@@ -77,7 +79,7 @@ const Home = () => (
     <PageSection>
       <h2>Contact</h2>
       <p>
-        I am currently available for both remote positions and freelance projects. The fastest and
+        I am currently open for both remote job positions and freelance projects. The fastest and
         most reliable way to reach me is via email, you can find the address below in the footer.
       </p>
     </PageSection>
