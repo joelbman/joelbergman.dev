@@ -31,7 +31,7 @@ const Footer = () => {
       -
       <Link href="https://github.com/joelbman/">
         <Image
-          src="/github-mark-white.svg"
+          src="/img/github-mark-white.svg"
           alt="GitHub logo"
           width={24}
           height={24}

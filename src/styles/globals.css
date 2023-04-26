@@ -5,18 +5,25 @@
 @tailwind utilities;
 
 #__next {
-  @apply bg-sky-950 text-sky-100 font-barlow flex flex-col w-full items-center min-h-screen p-8 overflow-x-hidden;
+  @apply bg-sky-950 text-sky-100 font-barlow flex flex-col w-full items-center min-h-screen p-8 overflow-x-hidden sm:px-2 text-sm sm:text-base;
 }
 
 h2 {
-  @apply font-bold font-robotomono text-3xl text-center mb-4;
+  @apply font-bold font-robotomono text-center mb-4 text-2xl sm:text-3xl;
 }
 
 .typewriter {
   border-right: 4px solid rgba(17, 17, 17, 0.9);
-  height: 4.5rem;
   animation: typewriter 1.5s steps(16) 0.5s 1 normal both, borderBlink 900ms steps(12) infinite;
-  @apply font-robotomono font-bold whitespace-nowrap overflow-hidden text-6xl;
+  @apply flex items-center font-robotomono font-bold whitespace-nowrap overflow-hidden text-4xl h-16 pr-2 sm:h-24 sm:text-6xl;
+}
+
+@media (max-width: 640px) {
+  .typewriter {
+    max-width: 19rem;
+    animation: typewriterMobile 1.5s steps(16) 0.5s 1 normal both,
+      borderBlink 900ms steps(12) infinite;
+  }
 }
 
 @keyframes typewriter {
@@ -24,7 +31,16 @@ h2 {
     @apply w-0;
   }
   to {
-    width: 28rem;
+    @apply w-[28rem];
+  }
+}
+
+@keyframes typewriter-mobile {
+  from {
+    @apply w-0;
+  }
+  to {
+    @apply w-[19rem];
   }
 }
 

@@ -1,35 +1,32 @@
+import PageSection from '@/components/PageSection';
 import { Tag, TagList } from '@/components/Tag';
 import TextLink from '@/components/TextLink';
 import Image from 'next/image';
-
-const PageSection = ({ children }: React.PropsWithChildren) => (
-  <section className="mb-10">{children}</section>
-);
 
 const Home = () => (
   <div className="flex flex-col items-center">
     <PageSection>
       <h2>Hello!</h2>
-      <div className="flex mb-12">
+      <div className="flex  flex-col items-center sm:flex-row">
         <Image
-          src="/joel_grayscale.png"
+          src="/img/joel_grayscale.png"
           alt="Joel portrait"
           width={164}
           height={164}
-          className="mr-6 rounded-xl border border-gray-900"
+          className="mr-0 mb-6 rounded-xl border border-gray-900 sm:mr-6 sm:mb-0"
         />
 
         <div className="text-left justify-self-center">
           <p>
-            I am Joel, a 30-year-old software developer from Rovaniemi, Finland. I started my
-            developer journey as a hobbyist at around age 12, coding websites and IRC bots. Since
-            then I&apos;ve dabbled with many programming languages and development fields such as
-            game development, ultimately specializing on both front- and backend web development.
+            I am Joel, a 30-year-old software developer from Rovaniemi, Finland. I specialize in
+            building modern web applications, although I&apos;ve dabbled with many programming
+            languages and fields over the years. Lately I&apos;ve been working as a freelancer,
+            mostly via <TextLink href="https://www.rare.fi/">RARE Agency</TextLink>.
           </p>
 
           <p className="mt-4">
             Other than programming, I mostly spend my time either playing computer games, playing
-            the guitar, singing, reading, taking walks or weightlifting.
+            the guitar, singing, reading, taking walks or resistance training.
           </p>
         </div>
       </div>
@@ -47,6 +44,7 @@ const Home = () => (
         <TagList>
           <Tag>HTML</Tag>
           <Tag>CSS</Tag>
+          <Tag>JavaScript</Tag>
           <Tag>TypeScript</Tag>
           <Tag>React</Tag>
           <Tag>Next.js</Tag>
