@@ -51,6 +51,7 @@ const Home = () => (
           <Tag>Node.js</Tag>
           <Tag>Express</Tag>
           <Tag>Vue</Tag>
+          <Tag>SQL</Tag>
           <Tag>Tailwind</Tag>
           <Tag>Shopify</Tag>
           <Tag>Contentful</Tag>

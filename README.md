@@ -1,9 +1,10 @@
 # joelbergman.dev
 
-Source code for my portfolio website.
+A repository for my personal portfolio website.
 
 ## Tech stack
 
+- React
 - NextJS
 - TailwindCSS
 - Vercel for hosting
