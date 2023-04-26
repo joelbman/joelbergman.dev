@@ -24,7 +24,7 @@ const Tag = ({ children, bg }: TagProps) => (
 );
 
 const TagList = ({ children, className }: TagListProps) => (
-  <div className={cn('flex flex-wrap justify-center', className)}>{children}</div>
+  <div className={cn('flex flex-wrap justify-center px-2', className)}>{children}</div>
 );
 
 export { Tag, TagList };
