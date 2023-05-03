@@ -7,6 +7,7 @@ const App = ({ Component, pageProps }: AppProps) => (
   <>
     <Head>
       <link rel="shortcut icon" href="img/favicon.png" />
+      <title>Joel Bergman</title>
       <meta
         name="description"
         content="Personal portfolio page of Joel Bergman, a freelance web developer."
